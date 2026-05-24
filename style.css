@@ -1,0 +1,60 @@
+body {
+  margin: 0;
+  font-family: Arial;
+  background: linear-gradient(135deg, #0a0010, #1a001f, #2b0000);
+  color: white;
+}
+
+.topbar {
+  text-align: center;
+  padding: 20px;
+  border-bottom: 1px solid #6a00ff;
+  background: rgba(0,0,0,0.4);
+}
+
+.layout {
+  display: flex;
+}
+
+.sidebar {
+  width: 250px;
+  padding: 20px;
+  border-right: 1px solid #6a00ff;
+}
+
+.sidebar button {
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 12px;
+  background: #1a001f;
+  border: 1px solid #6a00ff;
+  color: white;
+  cursor: pointer;
+}
+
+.sidebar button:hover {
+  background: #2a002f;
+}
+
+.content {
+  flex: 1;
+  padding: 25px;
+}
+
+.section {
+  background: rgba(0,0,0,0.4);
+  border: 1px solid #6a00ff;
+  padding: 20px;
+  border-radius: 12px;
+}
+
+.footer {
+  text-align: center;
+  padding: 15px;
+  border-top: 1px solid #6a00ff;
+  color: #aaa;
+}
+
+.hidden {
+  display: none;
+}
